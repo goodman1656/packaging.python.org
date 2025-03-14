@@ -6,6 +6,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         # Add your dependencies here
+        # Example: 'requests',
     ],
     entry_points={
         'console_scripts': [
@@ -13,3 +14,6 @@ setup(
         ],
     },
 )
+
+# You can uncomment this if you need to import bitcoin for other purposes
+# import bitcoin
